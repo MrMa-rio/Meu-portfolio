@@ -1,0 +1,86 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300 & display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+div.container{
+    margin-top: 35vh;
+}
+section#Me > div.container h1{
+
+    font-size: 36px;
+    line-height: 52.5px;
+    text-align: center;
+    padding: 18px;
+}
+section#Me > div.container p{
+    display: block;
+    margin: auto;
+    margin-top: 20%;
+    width: fit-content;
+    margin-bottom: 30%;
+    
+}
+div.container p a{
+    text-decoration: none;
+    text-align: center;
+    
+    border-radius: 20px;
+    
+
+}
+.material-symbols-outlined {
+  font-size: 80px;
+  color: brown;
+}
+
+section#aboutMe{
+    position: static;
+    background-color: grey;
+    height: fit-content;
+}
+section#aboutMe > div.container{
+
+    padding: 10px;
+    padding-bottom: 40px;
+    
+}
+section#aboutMe > div.container h2{
+
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    
+}
+section#aboutMe > div.container > div p {
+
+    text-align: center;
+    font-size: 1.1em;
+}
+section#aboutMe > div.container > div p img{
+    margin-right: auto;
+    border-radius: 5%;
+    width: 300px;
+    padding-bottom: 12%;
+}
+section#aboutMe  p#myResume{
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 20%;
+    font-size: 18px;
+    width: fit-content;
+    border: 2px solid white;
+    padding: 5px;
+}
+section#aboutMe  p#myResume a{
+
+   color: white;
+
+    
+    
+}
