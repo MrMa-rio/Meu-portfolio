@@ -21,6 +21,7 @@ section#Me{
     padding-bottom: 150px;
     
     
+    
 }
 
 section#Me > div.container h1{
@@ -56,6 +57,7 @@ section#Me > div.container .material-symbols-outlined{
 .material-symbols-outlined{
   font-size: 80px;
   color: brown;
+  cursor: pointer;
 }
 
 section#aboutMe{
@@ -73,8 +75,9 @@ section#aboutMe > div.container{
 section#aboutMe > div.container h2{
 
     text-align: center;
-    font-size: 28px;
+    font-size: 32px;
     padding: 10px;
+    font-variant: small-caps;
     
 }
 section#aboutMe > div.container > div p {
@@ -120,6 +123,10 @@ section#aboutMe p#expand{
     margin-bottom: 25%;
     width: fit-content;
 }
+section#aboutMe p#expand .material-symbols-outlined{
+
+    color: rgba(238, 89, 44, 0.61);
+}
 section#myProjects{
 
     background-color: rgba(65, 39, 39, 0.63);
@@ -141,8 +148,9 @@ section#myProjects > div#secondContainer div{
 section#myProjects  > div#secondContainer h2{
 
     text-align: center;
-    font-size: 28px;
+    font-size: 32px;
     padding: 60px;
+    font-variant: small-caps;
     
 }
 section#myProjects  > div#secondContainer h3{
@@ -150,6 +158,7 @@ section#myProjects  > div#secondContainer h3{
     
     font-size: 1.4em;
     padding: 10px;
+    font-variant: small-caps;
     
 }
 section#myProjects  > div#secondContainer p{
