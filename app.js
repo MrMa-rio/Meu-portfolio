@@ -1,5 +1,7 @@
-function scrollDown(){
+function scrollPage(numero){
 
-    document.getElementById("aboutMe").scrollIntoView({behavior:"smooth"});
+    const selectSection = ["aboutMe","myProjects","Me"]
+    const positionArray = selectSection[numero]
+    document.getElementById(`${positionArray}`).scrollIntoView({behavior:"smooth"});
     
 }
