@@ -13,7 +13,7 @@
         <section id= "Me">
             <div class="container">
                 <h1 id="thanks">Olá Visitante, meu nome é <strong>Mario Alberto</strong> e esse é o meu <strong>Portfolio.</strong></h1>
-            <p><a onclick="scrollPage(0)"><span class="material-symbols-outlined">
+            <p><a onclick="scrollPage(0),color()"><span class="material-symbols-outlined">
                 expand_more
                 </span></a></p>
             </div>
@@ -42,15 +42,23 @@
                     <h2>
                         Meus Projetos
                     </h2>
-                    <div>
-                        <h3>Curiosidades Android</h3>
-                        <p>Esse projeto HTML com CSS foi elaborado junto a um curso de HTML e CSS. Nele é apresentado uma pequena parte da historia do Sistema Operacional Android. Nesse projeto foram colocadas em pratica o HTML puro com CSS contendo algumas otimizações para dispositivos móveis.</p>
-                        <a href="#">Ver Online</a>
-                        <a href="#">Codigo Fonte no Git</a>
-                    </div>
-                    <div class="imageProjects">
+
+                    <div id="androidContainer">
+                        <div>
+                            <h3>Curiosidades Android</h3>
+                            <p>Esse projeto HTML com CSS foi elaborado junto a um curso de HTML e CSS. Nele é apresentado uma pequena parte da historia do Sistema Operacional Android. Nesse projeto foram colocadas em pratica o HTML puro com CSS contendo algumas otimizações para dispositivos móveis.</p>
+                            <a href="#">Ver Online</a>
+                            <a href="#">Codigo Fonte no Git</a>
+                        </div>
+                        <div class="imageProjects">
+                            <img src="imagens/curiosidades-android_3.png" alt="" srcset="">
+                            <p id="expand"><a onclick="scrollPage(3)"><span class="material-symbols-outlined">
+                                expand_more
+                                </span></a></p>
+                        </div>
                         
                     </div>
+                    
                     <div>
                         <h3>Projeto2</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque aspernatur sed quis nostrum soluta ab? Quas velit cum assumenda, tenetur corrupti aperiam. Neque, in eos tempora voluptatibus temporibus ipsa ex! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium possimus, aliquid assumenda expedita corporis nulla natus minima laborum. Nihil facilis soluta enim placeat magni nobis dicta ducimus vel culpa non!</p>
@@ -108,5 +116,6 @@
     </footer>
     
     <script src="app.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

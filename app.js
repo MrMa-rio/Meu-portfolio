@@ -8,6 +8,13 @@ function scrollPage(numero){
         const thanks = document.getElementById("thanks")
         thanks.style.paddingBottom = "150px"
         thanks.innerHTML = `Obrigado por visitar meu Portfolio!`
+        
     }
 }
 /* Criar uma funçao que muda a cor do fundo enquanto a rolagem da pagina é executada  */
+
+function color(){
+
+
+    document.getElementById("Me").style.backgroundImage = "linear-gradient(to bottom,#ffffff 90%, rgba(255, 0, 0, 0.603)"
+}
