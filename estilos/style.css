@@ -186,12 +186,7 @@ section#myProjects  > div#secondContainer a{
     transition: background-color 0.4s ease;
     
 }
-section#myProjects  > div#secondContainer a:hover{
 
-    background-color: white;
-    
-    border: 2px solid rgb(61, 177, 61);
-}
 
 section#myProjects div.imageProjects img{
     display: block; 
@@ -213,6 +208,27 @@ section#myProjects  div#androidContainer{
     background-image:linear-gradient(to bottom,white 1%,rgb(0, 255, 157), white);
     border-radius: 15px;
 }
+section#myProjects  div#cordelContainer{
+    background-image:linear-gradient(to bottom,rgba(255, 255, 255, 0.123),rgb(0, 0, 0) 02%,rgba(165, 165, 165, 0.575)90%, white 100%);
+    border-radius: 15px;
+}
+section#myProjects div#socialContainer{
+    background-image: linear-gradient(to bottom,#bc9e70, white)
+}
+section#myProjects  div#cordelContainer h3{
+    color: #fff;
+    padding-top: 35px;
+}
+section#myProjects div#socialContainer h3{
+
+    padding-top: 30px;
+}
+section#myProjects  div#cordelContainer p{
+
+    color: #fff;
+}
+
+
 section#myProjects p#expand{
     
     margin: auto;
@@ -225,6 +241,29 @@ section#myProjects p#expand span{
 }
 section#myProjects p#expand a{
     border: none;
+}
+section#myProjects p#expand a {
+    border: none;
+    
+}
+section#myProjects  div#androidContainer div.Redirects a:hover{
+
+    background-color: rgb(90, 231, 133);
+    
+    border: 2px solid rgb(61, 177, 61);
+}
+div#secondContainer div#cordelContainer div.Redirects a:hover{
+
+    background-color: rgb(71, 71, 71);
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+}
+div#secondContainer div#socialContainer div.Redirects a:hover{
+
+    background-color: rgb(161, 115, 63);
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+
 }
 section#myContacts{
 
