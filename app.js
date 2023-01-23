@@ -1,6 +1,6 @@
 function scrollPage(numero){
 
-    const selectSection = ["aboutMe","myProjects","Me"]
+    const selectSection = ["aboutMe","myProjects","Me","cordelContainer","socialContainer","loginContainer"]
     const positionArray = selectSection[numero]
     document.getElementById(`${positionArray}`).scrollIntoView({behavior:"smooth"});
     
@@ -10,6 +10,7 @@ function scrollPage(numero){
         thanks.innerHTML = `Obrigado por visitar meu Portfolio!`
         
     }
+    document.getElementById("Me").style.backgroundImage = "linear-gradient(to bottom,#fff,#fff"
 }
 /* Criar uma funçao que muda a cor do fundo enquanto a rolagem da pagina é executada  */
 
