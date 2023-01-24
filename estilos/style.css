@@ -7,9 +7,7 @@
     padding: 0px;
     margin: 0px;
     font-family: Montserrat, sans-serif;
-    
-    
-    
+    box-sizing: border-box;
 
 }
 body{
@@ -111,12 +109,12 @@ section#aboutMe  p#myResume{
     margin-bottom: 20%;
     font-size: 18px;
     width: fit-content;
-    border: 2px solid white;
+    border: 2px solid #fff;
     padding: 5px;
 }
 section#aboutMe  p#myResume a{
 
-   color: white;
+   color: #fff;
 }
 
 
@@ -131,17 +129,7 @@ section#myProjects{
     background-color: rgba(255, 255, 255, 0.63);
 
 }
-section#myProjects > div#secondContainer{
 
-    
-    padding-bottom: 220px;
-    
-}
-section#myProjects > div#secondContainer div{
-
-     padding-bottom: 90px;
-    
-}
 
 section#myProjects  > div#secondContainer h2{
 
@@ -162,14 +150,18 @@ section#myProjects  > div#secondContainer h3{
     font-variant: small-caps;
     
 }
-section#myProjects  > div#secondContainer p{
+section#myProjects  > div#secondContainer .Redirects p{
 
     text-align: left;
-    font-size: 1em;
+    font-size: 1.15em;
     padding: 10px;
     padding-left: 20px;
     line-height: 28px;
     
+}
+section#myProjects  > div#secondContainer .Redirects  a{
+
+    margin-bottom: 20px;
 }
 p.expand{
 
@@ -182,6 +174,7 @@ p.expand{
 section#myProjects .links{
 
     margin-left: 15px;
+
 }
 section#myProjects div#androidContainer .links{
 
@@ -190,7 +183,7 @@ section#myProjects div#androidContainer .links{
 section#myProjects div#cordelContainer .links{
 
     border: 1px solid rgb(255, 255, 255);
-    color: white;
+    color: #fff;
     
 }
 section#myProjects div#socialContainer .links{
@@ -202,6 +195,11 @@ section#myProjects div#loginContainer .links{
 
     border: 1px solid #02111B;
     
+}
+section#myProjects div#calculatorContainer .links{
+
+    border: 1px solid rgba(173, 53, 53, 0.788);
+
 }
 
 section#myProjects  > div#secondContainer a{
@@ -240,70 +238,105 @@ section#myProjects div.imageProjects img#socialImage:hover{
     
 }
 section#myProjects div.imageProjects img#loginImage:hover{
-    box-sizing: border-box;
+    
     box-shadow: 0px 0px 12px  #02111B;
-    block-size: 498px;
+    
     
 }
+section#myProjects div.imageProjects img#calculatorImage:hover{
+    
+    box-shadow: 0px 0px 12px  #462121;
+    
+    
+}
+
 section#myProjects  div#androidContainer{
-    background-image:linear-gradient(to bottom,white 1%,rgb(0, 255, 157), white);
+    background-image:linear-gradient(to bottom,#fff 1%,rgb(0, 255, 157), #fff);
     border-radius: 15px;
 }
 section#myProjects  div#cordelContainer{
-    background-image:linear-gradient(to bottom,rgba(255, 255, 255, 0.123),rgb(0, 0, 0) 02%,rgba(165, 165, 165, 0.575)90%, white 100%);
+    background-image:linear-gradient(to bottom,#fff 1%,rgba(0, 0, 0, 0.87),black, #fff);
     border-radius: 15px;
 }
 section#myProjects div#socialContainer{
-    background-image: linear-gradient(to bottom,#bc9e70, white)
+    background-image: linear-gradient(to bottom,#fff 1%,#bc9e70, #fff)
 }
 section#myProjects div#loginContainer{
 
-    background-image: linear-gradient(74deg,#517993 20%, rgba(122, 120, 120, 0.589) 60%, grey 80%,#02111B);
+    background-image: linear-gradient(to bottom, #fff 1%,#446D88, 60%, rgba(0, 132, 255, 0.322),#fff);
+}
+section#myProjects div#calculatorContainer{
+    
+    background-image: linear-gradient(to bottom,#fff 2%, rgba(105, 43, 39, 0.884) 45%,rgba(100, 44, 44, 0.932), #fff);
+
 }
 section#myProjects  div#cordelContainer h3{
-    color: #fff;
-    padding-top: 35px;
+    color: rgb(5, 5, 5);
+    padding: 15px;
 }
 section#myProjects div#socialContainer h3{
 
     padding-top: 30px;
 }
-section#myProjects div#loginContainer div.Redirects h3{
 
-    color: #fff;
+section#myProjects div#loginContainer h3{
+
+    color: rgb(0, 0, 0);
     padding-top: 30px;
     
+}
+section#myProjects div#calculatorContainer h3{
+
+    padding: 30px;
+    color: rgb(0, 0, 0);
+
 }
 
 
 section#myProjects  div#cordelContainer p{
 
-    color: #fff;
+    color: rgb(0, 0, 0);
+
 }
 section#myProjects  div#loginContainer .Redirects p{
 
-    color: #fff;
-    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.63);
-    
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
     
 }
+section#myProjects div#calculatorContainer .Redirects p{
 
+    
+    color: rgb(0, 0, 0);
+    border-radius: 19px;
+    margin-bottom: 10px;
 
+}
 
+section#myProjects div#androidContainer p.expand span{
 
+    color: rgba(81, 211, 120, 0.801);
+    
+}
 section#myProjects div#cordelContainer p.expand span{
+
     color: rgba(0, 0, 0, 0.801);
 }
 section#myProjects div#socialContainer p.expand span{
+
     color: rgba(187, 137, 71, 0.801);
 }
 section#myProjects div#loginContainer p.expand span{
+
     color: #02111B;
 }
-section#myProjects p.expand span{
-    color: rgba(81, 211, 120, 0.801);
+section#myProjects div#calculatorContainer p.expand span{
+
+    color: rgb(87, 47, 47);
 }
+
 section#myProjects p.expand a{
+
     border: none;
 }
 
@@ -316,29 +349,35 @@ section#myProjects  div#androidContainer div.Redirects a:hover{
 div#secondContainer div#cordelContainer div.Redirects a:hover{
 
     background-color: rgb(71, 71, 71);
-    color: white;
+    color: #fff;
     border: 2px solid rgb(255, 255, 255);
 }
 div#secondContainer div#socialContainer div.Redirects a:hover{
 
     background-color: rgb(161, 115, 63);
-    color: white;
+    color: #fff;
     border: 2px solid rgb(255, 255, 255);
 
 }
 div#secondContainer div#loginContainer div.Redirects a:hover{
 
     background-color: #02111B;
-    color: white;
+    color: #fff;
     border: 2px solid rgb(255, 255, 255);
 
 }
+div#secondContainer div#calculatorContainer div.Redirects a:hover{
 
+    background-color: #723030;
+    color: #fff;
+    border: 2px solid rgb(255, 255, 255);
+
+}
 section#myContacts{
 
-    background-color: burlywood;
     padding-top: 150px;
     padding-bottom: 150px;
+    background-color: white;
     
 }
 section#myContacts div.container{
