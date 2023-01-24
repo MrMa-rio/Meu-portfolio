@@ -103,6 +103,15 @@ section#aboutMe > div.container > div p#myWords {
     text-indent: 40px;
     padding: 10px;
 }
+section#aboutMe > div.container > div p#myWords a{
+
+    color: black;
+    font-weight: bold;
+}
+section#aboutMe > div.container > div p#myWords a:hover{
+
+    text-decoration: underline;
+}
 section#aboutMe  p#myResume{
     margin: auto;
     margin-top: 10%;
@@ -312,6 +321,21 @@ section#myProjects div#calculatorContainer .Redirects p{
     margin-bottom: 10px;
 
 }
+section#myProjects  div#cordelContainer .Redirects p .hyperlinkText{
+    padding: 2px;
+    font-weight: bold;
+    
+}
+section#myProjects  div#cordelContainer .Redirects p .hyperlinkText:hover{
+
+    background-color: rgba(128, 128, 128, 0);
+    color: #000;
+    text-decoration: underline;
+    padding: 2px;
+    border-radius: 0px;
+    border: 0px;
+}
+
 
 section#myProjects div#androidContainer p.expand span{
 
