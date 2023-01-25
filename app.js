@@ -19,3 +19,4 @@ function color(){
 
     document.getElementById("Me").style.backgroundImage = "linear-gradient(to bottom,#ffffff 90%, rgba(255, 0, 0, 0.603)"
 }
+

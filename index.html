@@ -5,7 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,300,0,-25" />
-    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/mediaQuery-790-950.css" media="screen and (min-width: 790px) and (max-width:950px)">
+    <link rel="stylesheet" href="estilos/mediaQuery-951-1100.css" media="screen and (min-width: 950px) and (max-width:1100px)">
+    <link rel="stylesheet" href="estilos/mediaQuery-1101-1200.css" media="screen and (min-width: 1100px) and (max-width:1200px)">
+    <link rel="stylesheet" href="estilos/mediaQuery-1201-1400.css" media="screen and (min-width: 1200px) and (max-width:1400px)">
+    <link rel="stylesheet" href="estilos/mediaQuery-1401.css" media="screen and (min-width: 1400px)">
+    <link rel="stylesheet" href="estilos/style.css" media="screen and (max-width: 789px)">
+    
     <title>It's Mario</title>
 </head>
 <body>
@@ -13,25 +19,33 @@
         <section id= "Me">
             <div class="container">
                 <h1 id="thanks">Olá Visitante, meu nome é <strong>Mario Alberto</strong> e esse é o meu <strong>Portfolio.</strong></h1>
-            <p><a onclick="scrollPage(0),color()"><span class="material-symbols-outlined">
-                expand_more
-                </span></a></p>
+                    <div id="expandInitial">
+                        <p><a onclick="scrollPage(0),color()"><span class="material-symbols-outlined">expand_more</span></a></p>
+                    </div>
             </div>
         </section>
         <section id="aboutMe">
             <div class="container">
                 <div>
-                    <h2>Sobre Mim</h2>
-                    <div >
+                    
+                    <div><h2>Sobre Mim</h2></div>
+
+                    <div id="meImage">
                         <p><img src="imagens/personPixel.png" alt="personPixel" srcset=""></p>
-                    </div>
+                    </div> 
+                        <div id="words">
+                            <p id="myWords">Meu nome é Mario e eu sou apaixonado por programação. 
+                                Atualmente sou estudante de Análise e Desenvolvimento de Sistemas,
+                                o foco principal é me tornar um desenvolvedor Full Stack.
+                                Embora eu não tenha experiência profissional,
+                                tenho alguns projetos que mostram um pouco do que eu sei,
+                                como uma calculadora feita em javascript e projetos de HTML e CSS que fiz através do <a href="https://www.cursoemvideo.com/" target="_blank">Curso em Video</a> com o professor <a href="https://www.instagram.com/gustavoguanabara/" target="_blank">Guanabara</a>. Prentendo ampliar meus conhecimentos trabalhando muito. Apesar de ser novo no campo, estou disposto a começar do zero e trabalhar duro para alcançar meus objetivos. Eu gosto de ser organizado e trabalhar com calma, sempre me esforçando para aprender novas tecnologias e me tornar um excelente profissional.</p>
+                        </div>
                     <div>
-                        <p id="myWords">Meu nome é Mario e eu sou apaixonado por programação. Atualmente sou estudante de Análise e Desenvolvimento de Sistemas, o foco principal é me tornar um desenvolvedor Full Stack. Embora eu não tenha experiência profissional, tenho alguns projetos que mostram um pouco do que eu sei, como uma calculadora feita em javascript e projetos de HTML e CSS que fiz através do <a href="https://www.cursoemvideo.com/" target="_blank">Curso em Video</a> com o professor <a href="https://www.instagram.com/gustavoguanabara/" target="_blank">Guanabara</a> Prentendo ampliar meus conhecimentos trabalhando muito. Apesar de ser novo no campo, estou disposto a começar do zero e trabalhar duro para alcançar meus objetivos. Eu gosto de ser organizado e trabalhar com calma, sempre me esforçando para aprender novas tecnologias e me tornar um excelente profissional.</p>
+                       
                         
                         <p id="myResume" ><a href="Documents/myResume.docx">Meu curriculo</a></p>
-                        <p class="expand"><a onclick="scrollPage(1)"><span class="material-symbols-outlined">
-                            expand_more
-                            </span></a></p>
+                        <p class="expand"><a onclick="scrollPage(1)"><span class="material-symbols-outlined">expand_more</span></a></p>
                     </div>
                 </div>
             </div>
@@ -39,82 +53,66 @@
         <section id="myProjects">
             <div id="secondContainer">
                 <div>
-                    <h2>
-                        Meus Projetos
-                    </h2>
-
+                    <h2>Meus Projetos</h2>
                     <div id="androidContainer">
                         <div class="Redirects">
                             <h3>Curiosidades Android</h3>
-                            <p>Esse projeto foi elaborado junto a um curso de Desenvolvimento Web Básico. Nele é apresentado uma pequena parte da historia do Sistema Operacional Android. Nesse projeto foram colocadas em pratica o HTML com CSS contendo algumas otimizações para dispositivos móveis.</p>
-                            <a class="links" href="https://mrma-rio.github.io/Curiosidades-Android/" target="_blank">Ver Online</a>
-                            <a class="links" href="https://github.com/MrMa-rio/Curiosidades-Android" target="_blank">Codigo Fonte no Git</a>
+                                <p>Esse projeto foi elaborado junto a um curso de Desenvolvimento Web Básico. Nele é apresentado uma pequena parte da historia do Sistema Operacional Android. Nesse projeto foram colocadas em pratica o HTML com CSS contendo algumas otimizações para dispositivos móveis.</p>
+                                    <a class="links" href="https://mrma-rio.github.io/Curiosidades-Android/" target="_blank">Ver Online</a>
+                                    <a class="links" href="https://github.com/MrMa-rio/Curiosidades-Android" target="_blank">Codigo Fonte no Git</a>
                         </div>
                         <div class="imageProjects">
                             <img id="androidImage" src="imagens/curiosidades-android_3.png" alt="" srcset="">
-                            <p class="expand"><a onclick="scrollPage(3)"><span class="material-symbols-outlined">
-                                expand_more
-                                </span></a></p>
+                                <p class="expand"><a onclick="scrollPage(3)"><span class="material-symbols-outlined">expand_more</span></a></p>
                         </div>
-                        
                     </div>
-                    
                     <div id="cordelContainer">
                         <div class="Redirects">
                             <h3>Desafio Cordel</h3>
-                            <p>Esse é mais um dos meus projetos academicos onde eu coloco em pratica um dos efeitos mais legais do CSS (o Parallax), nesse projeto foi apresentado um Cordel de <a class="hyperlinkText" href="https://www.recantodasletras.com.br/autor.php?id=9806" target="_blank">Milton Duarte</a>.</p>
-                            <a class="links" href="https://mrma-rio.github.io/Desafio_Cordel/" target="_blank">Ver Online</a>
-                            <a class="links" href="https://github.com/MrMa-rio/Desafio_Cordel" target="_blank">Codigo Fonte no Git</a>
+                                <p>Esse é mais um dos meus projetos academicos onde eu coloco em pratica um dos efeitos mais legais do CSS (o Parallax), nesse projeto foi apresentado um Cordel de <a class="hyperlinkText" href="https://www.recantodasletras.com.br/autor.php?id=9806" target="_blank">Milton Duarte</a>.</p>
+                                <a class="links" href="https://mrma-rio.github.io/Desafio_Cordel/" target="_blank">Ver Online</a>
+                                <a class="links" href="https://github.com/MrMa-rio/Desafio_Cordel" target="_blank">Codigo Fonte no Git</a>
                         </div>
                         <div class="imageProjects">
                             <img id="cordelImage" src="imagens/cordel.png" alt="Projeto Cordel" srcset="">
-                            <p class="expand"><a onclick="scrollPage(4)"><span class="material-symbols-outlined">
-                                expand_more
-                                </span></a></p>
+                                <p class="expand"><a onclick="scrollPage(4)"><span class="material-symbols-outlined">expand_more</span></a></p>
                         </div>
                         
                     </div>
                     <div id="socialContainer">
                         <div class="Redirects">
                             <h3>Projeto Redes</h3>
-                            <p>No Projeto Redes fiz uma breve apresentação dos meus perfis sociais sendo eles, o Github, Facebook e o Instagram, em cada um, usei a tecnica do <strong>iFrame</strong> para mostrar uma rolagem de cada perfil social.</p>
-                            <a class="links" href="https://mrma-rio.github.io/Projeto-social/" target="_blank" >Ver Online</a>
-                            <a class="links" href="https://github.com/MrMa-rio/Projeto-social" target="_blank">Codigo Fonte no Git</a>
+                                <p>No Projeto Redes fiz uma breve apresentação dos meus perfis sociais sendo eles, o Github, Facebook e o Instagram, em cada um, usei a tecnica do <strong>iFrame</strong> para mostrar uma rolagem de cada perfil social.</p>
+                                    <a class="links" href="https://mrma-rio.github.io/Projeto-social/" target="_blank" >Ver Online</a>
+                                    <a class="links" href="https://github.com/MrMa-rio/Projeto-social" target="_blank">Codigo Fonte no Git</a>
                         </div>
                         <div class="imageProjects">
                             <img id="socialImage" src="imagens/projeto_redes.png" alt="" srcset="">
-                            <p class="expand"><a onclick="scrollPage(5)"><span class="material-symbols-outlined">
-                                expand_more
-                                </span></a></p>
+                                <p class="expand"><a onclick="scrollPage(5)"><span class="material-symbols-outlined">expand_more</span></a></p>
                         </div>
-                        
                     </div>
                     <div id="loginContainer">
                         <div class="Redirects">
                             <h3>Tela de Login</h3>
-                            <p>Não tenho palavras para essa Tela de Login. Esse projeto realçou meu desejo na area de desenvolvimento (por mais que tenho que melhorar nas cores) nele coloquei em pratica a construçao de um mini formulario onde eu peço para o usuario, o login e senha para estar podendo acessar algo futuramente</p>
-                            <a class="links" href="https://mrma-rio.github.io/projeto-login-custom/" target="_blank">Ver Online</a>
-                            <a class="links" href="https://github.com/MrMa-rio/projeto-login-custom" target="_blank">Codigo Fonte no Git</a>
+                                <p>Não tenho palavras para essa Tela de Login. Esse projeto realçou meu desejo na area de desenvolvimento (por mais que tenho que melhorar nas cores) nele coloquei em pratica a construçao de um mini formulario onde eu peço para o usuario, o login e senha para estar podendo acessar algo futuramente</p>
+                                    <a class="links" href="https://mrma-rio.github.io/projeto-login-custom/" target="_blank">Ver Online</a>
+                                    <a class="links" href="https://github.com/MrMa-rio/projeto-login-custom" target="_blank">Codigo Fonte no Git</a>
                         </div>
                         <div class="imageProjects">
                             <img id="loginImage" src="imagens/login.png" alt="" srcset="">
-                            <p class="expand"><a onclick="scrollPage(6)"><span class="material-symbols-outlined">
-                                expand_more
-                                </span></a></p>
+                                <p class="expand"><a onclick="scrollPage(6)"><span class="material-symbols-outlined">expand_more</span></a></p>
                         </div>
                     </div>
                     <div id="calculatorContainer">
                         <div class="Redirects">
                             <h3>Calculadora</h3>
-                            <p>O objetivo desse projeto foi colocar em pratica a criação de tabelas e também implementar uma logica basica em Javascript, nesse projeto o usuario ira conseguir efetuar algumas operações matemáticas como, subtração, adição, multiplicação e divisão. </p>
-                            <a class="links" href="https://mrma-rio.github.io/projeto-login-custom/" target="_blank">Ver Online</a>
-                            <a class="links" href="https://github.com/MrMa-rio/projeto-login-custom" target="_blank">Codigo Fonte no Git</a>
+                                <p>O objetivo desse projeto foi colocar em pratica a criação de tabelas e também implementar uma logica basica em Javascript, nesse projeto o usuario ira conseguir efetuar algumas operações matemáticas como, subtração, adição, multiplicação e divisão. </p>
+                                    <a class="links" href="https://mrma-rio.github.io/projeto-login-custom/" target="_blank">Ver Online</a>
+                                    <a class="links" href="https://github.com/MrMa-rio/projeto-login-custom" target="_blank">Codigo Fonte no Git</a>
                         </div>
                         <div class="imageProjects">
                             <img id="calculatorImage" src="imagens/calculadora.png" alt="" srcset="">
-                            <p class="expand"><a onclick="scrollPage(7)"><span class="material-symbols-outlined">
-                                expand_more
-                                </span></a></p>
+                                <p class="expand"><a onclick="scrollPage(7)"><span class="material-symbols-outlined">expand_more</span></a></p>
                         </div>
                     </div>
                 </div>
@@ -124,12 +122,8 @@
            <div class="container">
                 <h2>Contatos</h2>
                 <div>
-                    <p><span class="material-symbols-outlined">
-                        phone
-                        </span> <strong>Telefone:</strong>(16) 99228-3546</p>
-                    <p><span class="material-symbols-outlined">
-                        message
-                        </span> <strong>Email:</strong> mariomarinhosp15@gmail.com</p>
+                    <p><span class="material-symbols-outlined">phone</span> <strong>Telefone:</strong>(16) 99228-3546</p>
+                    <p><span class="material-symbols-outlined">message</span> <strong>Email:</strong> mariomarinhosp15@gmail.com</p>
                 </div>
            </div>
         </section>
@@ -137,9 +131,7 @@
     <footer>
         <div class="container">
             <div id="backInicial">
-                <a onclick="scrollPage(2)"><span class="material-symbols-outlined">
-                    expand_less
-                    </span></a>
+                <a onclick="scrollPage(2)"><span class="material-symbols-outlined">expand_less</span></a>
             </div>
             <div id="redirectSocial">
                 <a href="https://www.instagram.com/mr_mario_alberto/" target="_blank"><img src="imagens/instagram.png" alt="Instagram" srcset=""></a>
