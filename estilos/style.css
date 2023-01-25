@@ -53,7 +53,7 @@ section#Me > div.container .material-symbols-outlined{
 }
 .material-symbols-outlined{
   font-size: 80px;
-  color: brown;
+  color: rgb(0, 0, 0);
   cursor: pointer;
 }
 
@@ -131,6 +131,7 @@ section#aboutMe  p#myResume a{
 section#aboutMe div.container p.expand .material-symbols-outlined{
 
     color: rgba(238, 151, 36, 0.61);
+    
 }
 section#myProjects{
 
@@ -428,11 +429,7 @@ section#myContacts div.container div p{
     
     text-align: center;
 }
-section#myContacts div.container div p span{
 
-    font-size:20px;
-    font-weight: 700;
-}
 footer{
     width: 100%;
     padding-top: 100px;

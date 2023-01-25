@@ -168,6 +168,309 @@ section#aboutMe > div.container div#resumeContainer p.expand a > span{
 
 
    font-size: 3.6em;
+   cursor: pointer;
 
 }
 
+section#myProjects h2{
+
+    font-size: 2.7em;
+    padding: 10px;
+
+
+}
+section#myProjects div#secondContainer div.Redirects{
+    width: 60vw;
+    
+}
+section#myProjects div#secondContainer div.Redirects h3{
+
+   
+    font-size: 2.1em;
+
+}
+section#myProjects div#secondContainer div.Redirects p{
+
+   
+   font-size: 1.4em;
+   width: 550px;
+   text-align: justify;
+   line-height: 35px;
+   margin-bottom: 30px;
+
+}
+section#myProjects div#secondContainer div.Redirects a.links{
+    
+    padding: 10px;
+    text-decoration: none;
+}
+
+section#myProjects > div#secondContainer div.imageProjects img{
+
+    
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.664);
+   
+}
+section#myProjects > div#secondContainer div.imageProjects > p.expand{
+
+    width: fit-content;
+    margin: auto;
+    position: relative;
+    transform: translateY(-35vh);
+    cursor: pointer;
+}
+section#myProjects > div#secondContainer div.imageProjects > p.expand span{
+
+    font-size: 4em;
+}
+section#myProjects > div#secondContainer div#androidContainer{
+
+    background-image: linear-gradient(to bottom, white, rgba(10, 163, 79, 0.842),rgb(10, 163, 79),#fff);
+}
+section#myProjects div#secondContainer div#androidContainer div.Redirects{
+
+    position: relative;
+    left: 30%;
+    width: fit-content;
+    transform: translate(-35%,30vh);
+}
+section#myProjects div#androidContainer div.Redirects a.links{
+    
+    color: #000;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.582);
+    border: 1px solid rgb(96, 207, 81);
+    border-radius: 10px;
+    transition: background-color 0.1s ease-in;
+}
+section#myProjects div#androidContainer div.Redirects a.links:hover{
+
+    background-color: rgba(46, 241, 183, 0.219);
+
+}
+section#myProjects > div#secondContainer div#androidContainer div.imageProjects img{
+    display: block;
+    position: relative;
+    transform: translate(-50%,-45%) rotate(-5deg);
+    margin-left: auto;
+}
+section#myProjects div#androidContainer p.expand a span{
+
+    color: rgb(39, 104, 68);
+}
+
+/**/
+
+section#myProjects > div#secondContainer div#cordelContainer{
+
+    background-image: linear-gradient(to bottom, white, rgba(66, 66, 66, 0.842),rgb(88, 88, 88),#fff);
+}
+section#myProjects div#secondContainer div#cordelContainer div.Redirects{
+
+    position: relative;
+    left: 50%;
+    width: fit-content;
+    transform: translate(5vw,30vh);
+}
+section#myProjects div#cordelContainer div.Redirects a.links{
+    
+    color: #000;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.582);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    transition: background-color 0.1s ease-in;
+}
+section#myProjects div#cordelContainer div.Redirects a.links:hover{
+
+    background-color: rgba(83, 83, 83, 0.452);
+
+}
+section#myProjects > div#secondContainer div#cordelContainer div.imageProjects img{
+    display: block;
+    position: relative;
+    transform: translate(70%,-20%) rotate(5deg);
+  
+}
+section#myProjects div#cordelContainer p .hyperlinkText {
+
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-decoration: none;
+}
+section#myProjects div#cordelContainer p .hyperlinkText:hover{
+
+   text-decoration: underline;
+}
+
+/**/
+
+section#myProjects > div#secondContainer div#socialContainer{
+
+    background-image: linear-gradient(to bottom, white, rgb(202, 171, 69),rgb(189, 163, 78),#fff);
+}
+section#myProjects div#secondContainer div#socialContainer div.Redirects{
+
+    position: relative;
+    left: 30%;
+    width: fit-content;
+    transform: translate(-35%,30vh);
+}
+section#myProjects div#socialContainer div.Redirects a.links{
+    
+    color: #000;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.582);
+    border: 1px solid rgb(133, 114, 33);
+    border-radius: 10px;
+    transition: background-color 0.1s ease-in;
+}
+section#myProjects div#socialContainer div.Redirects a.links:hover{
+
+    background-color: rgba(189, 179, 38, 0.411);
+
+}
+section#myProjects > div#secondContainer div#socialContainer div.imageProjects img{
+    display: block;
+    position: relative;
+    transform: translate(-50%,-20%) rotate(-5deg);
+    margin-left: auto;
+}
+section#myProjects div#socialContainer p.expand a span{
+
+    color: rgb(112, 97, 28);
+}
+
+/**/
+
+section#myProjects > div#secondContainer div#loginContainer{
+
+    background-image: linear-gradient(to bottom, white, rgba(37, 82, 107, 0.623),rgba(35, 73, 109, 0.692),#fff);
+}
+section#myProjects div#secondContainer div#loginContainer div.Redirects{
+
+    position: relative;
+    left: 50%;
+    width: fit-content;
+    transform: translate(5vw,30vh);
+}
+section#myProjects div#loginContainer div.Redirects a.links{
+    
+    color: #000;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.582);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    transition: background-color 0.1s ease-in;
+}
+section#myProjects div#loginContainer div.Redirects a.links:hover{
+
+    background-color: rgba(52, 88, 109, 0.452);
+
+}
+section#myProjects > div#secondContainer div#loginContainer div.imageProjects img{
+    display: block;
+    position: relative;
+    transform: translate(70%,-20%) rotate(5deg);
+  
+}
+
+/**/
+
+section#myProjects > div#secondContainer div#calculatorContainer{
+
+    background-image: linear-gradient(to bottom, white, rgba(116, 38, 38, 0.877),rgba(90, 37, 37, 0.877),#fff);
+}
+section#myProjects div#secondContainer div#calculatorContainer div.Redirects{
+
+    position: relative;
+    left: 30%;
+    width: fit-content;
+    transform: translate(-35%,30vh);
+}
+section#myProjects div#calculatorContainer div.Redirects a.links{
+    
+    color: #000;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.582);
+    border: 1px solid rgb(133, 33, 33);
+    border-radius: 10px;
+    transition: background-color 0.1s ease-in;
+}
+section#myProjects div#calculatorContainer div.Redirects a.links:hover{
+
+    background-color: rgba(192, 54, 54, 0.589);
+
+}
+section#myProjects > div#secondContainer div#calculatorContainer div.imageProjects img{
+    display: block;
+    position: relative;
+    transform: translate(-50%,-20%) rotate(-5deg);
+    margin-left: auto;
+}
+section#myProjects div#calculatorContainer p.expand a span{
+
+    color: rgb(87, 22, 22);
+}
+
+section#myContacts{
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: white;
+    
+}
+section#myContacts div.container{
+
+    margin: 0px;
+    width: 100%;
+    
+}
+
+section#myContacts div.container h2{
+    
+    font-size: 28px;
+    text-align: center;
+
+}
+section#myContacts div.container div{
+
+    margin-top: 40px;
+}
+section#myContacts div.container div p{
+
+    font-size: 20px;
+    
+    text-align: center;
+}
+footer div.container div#backInicial span{
+
+    font-size: 3.5em;
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgb(121, 121, 121);
+    
+}
+footer div.container{
+    margin: 0px;
+    
+}
+footer div.container div#backInicial {
+    width: fit-content;
+    margin: auto;
+}
+footer div.container div#redirectSocial{
+
+    margin: auto;
+    margin-top: 60px;
+    width: fit-content;
+}
+footer div.container div#redirectSocial a{
+    display: inline-block;
+    padding: 15px;
+}
+footer div.container div#redirectSocial a img{
+
+    width: 45px;
+}
