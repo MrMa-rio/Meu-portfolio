@@ -5,10 +5,55 @@
     margin: 0px;
     padding: 0px;
     font-family: Montserrat, sans-serif;
+    
 }
 
 section#Me > div.container > h1#thanks{
+    width: 840px;
+}
 
-    text-align: center;
+section#aboutMe > div.container div#meImage p img{
 
+    width: 380px;
+    
+}
+
+section#aboutMe > div.container > div div#resumeContainer{
+
+    transform: translate(2%,-75vh);
+    
+}
+
+section#myProjects h2{
+
+    font-size: 2.8em;
+    padding: 30px;
+
+}
+
+section#myProjects div#secondContainer div.Redirects p{
+
+
+   font-size: 1.4em;
+   width: 500px;
+   line-height: 35px;
+
+}
+
+section#myProjects > div#secondContainer div.imageProjects img{
+    
+    width: 310px;
+    
+}
+section#myProjects > div#secondContainer div#androidContainer div.imageProjects > p.expand{
+
+    
+    transform: translateY(-40vh);
+    
+}
+section#myProjects div#secondContainer div#androidContainer div.Redirects{
+
+    
+    left: 30%;
+    transform: translate(-45%,15vh);
 }

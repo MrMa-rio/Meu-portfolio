@@ -1,0 +1,474 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Montserrat, sans-serif;
+}
+
+section#Me{
+
+    height: 100vh;
+   
+}
+
+
+
+section#Me > div.container{
+
+    position: relative;
+    width: fit-content;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+section#Me > div.container > h1#thanks{
+
+    font-size: 2.5em;
+    width: fit-content;
+    text-align: center;
+    margin-top: 45px;
+
+}
+section#Me > div.container > div#expandInitial{
+
+    width: fit-content;
+    margin: auto;
+    margin-top: 300px;
+}
+section#Me > div.container > p{
+
+    width: fit-content;
+
+}
+section#Me > div.container > div#expandInitial p > a > span.material-symbols-outlined{
+
+    font-size: 70px;
+    color: #fff;
+    text-shadow: 1px 1px 7px rgb(0, 0, 0);
+    transition: color 0.5s ease;
+}
+section#Me > div.container > div#expandInitial p > a > span.material-symbols-outlined:hover{
+
+    color: #000;
+    cursor: pointer;
+
+}
+section#aboutMe{
+
+    
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.507) 1%,rgba(255, 255, 0, 0.541)20%,rgba(255, 166, 0, 0.637), rgba(255, 0, 0, 0.603));
+}
+
+
+section#aboutMe > div.container > div > div > h2{
+    position: relative;
+    font-size: 2.1em;
+    width: fit-content;
+    padding: 8px;
+    top: 35px;
+    left: 25px;
+    
+}
+section#aboutMe > div.container div#meImage{
+
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: 6vw;
+
+}
+section#aboutMe > div.container div#meImage p img{
+
+    width: 280px;
+    border-radius: 30px;
+   
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.753);
+}
+section#aboutMe > div.container > div > div#meImage > p{
+
+    width: fit-content;
+    margin-top: 40px;
+}
+section#aboutMe > div.container div#words{
+
+    position: relative;
+    top: 50%;
+    transform: translate(10%,-25%);
+    width: fit-content;
+    background-color: #1816192a;
+    
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.322);
+    padding: 20px;
+    border-radius: 25px;
+    
+
+}
+section#aboutMe > div.container div p#myWords{
+
+    width: 330px;
+    color: rgb(3, 3, 3);
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.819);
+    line-height: 35px;
+    font-size: 1.1em;
+    text-align: justify;
+
+}
+section#aboutMe > div.container > div p#myWords a{
+
+    color: black;
+    font-weight: bold;
+    padding: 3px;
+    text-decoration: none;
+}
+section#aboutMe > div.container > div p#myWords a:hover{
+
+    text-decoration: underline;
+}
+
+section#aboutMe  p#myResume{
+    color: #000;
+}
+
+section#aboutMe > div.container > div div#resumeContainer{
+
+    width: fit-content;
+    margin-left: auto;
+    margin-right: 22vw;
+    position: relative;
+    top: 50%;
+    left: 2%;
+    transform: translate(38%,-70vh);
+    padding: 10px;
+}
+section#aboutMe > div.container p#myResume a{
+
+    color: #000;
+    text-decoration: none;
+    border: 2px solid #000;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 0.5s ease;
+}
+section#aboutMe > div.container p#myResume a:hover{
+
+    background-color: rgb(245, 195, 86)
+}
+section#aboutMe > div.container div#resumeContainer p.expand {
+
+    width: fit-content;
+    margin: auto;
+    margin-top: 100px;
+}
+section#aboutMe > div.container div#resumeContainer p.expand a > span{
+
+
+   font-size: 3.6em;
+   cursor: pointer;
+
+}
+
+section#myProjects h2{
+
+    font-size: 2.1em;
+    padding: 10px;
+
+
+}
+section#myProjects div#secondContainer div.Redirects{
+    width: 60vw;
+    
+}
+section#myProjects div#secondContainer div.Redirects h3{
+
+   
+    font-size: 1.8em;
+
+}
+section#myProjects div#secondContainer div.Redirects p{
+
+   
+   font-size: 1.2em;
+   width: 400px;
+   text-align: justify;
+   line-height: 35px;
+   margin-bottom: 30px;
+
+}
+section#myProjects div#secondContainer div.Redirects a.links{
+    
+    padding: 10px;
+    text-decoration: none;
+}
+
+section#myProjects > div#secondContainer div.imageProjects img{
+
+    
+    width: 260px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.664);
+   
+}
+section#myProjects > div#secondContainer div.imageProjects > p.expand{
+
+    width: fit-content;
+    margin: auto;
+    position: relative;
+    transform: translateY(-15vh);
+    cursor: pointer;
+}
+section#myProjects > div#secondContainer div.imageProjects > p.expand span{
+
+    font-size: 4em;
+}
+section#myProjects > div#secondContainer div#androidContainer{
+
+    background-image: linear-gradient(to bottom, white, rgba(10, 163, 79, 0.842),rgb(10, 163, 79),#fff);
+}
+section#myProjects div#secondContainer div#androidContainer div.Redirects{
+
+    position: relative;
+    left: 30%;
+    width: fit-content;
+    transform: translate(-45%,30vh);
+}
+section#myProjects div#androidContainer div.Redirects a.links{
+    
+    color: #000;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.582);
+    border: 1px solid rgb(96, 207, 81);
+    border-radius: 10px;
+    transition: background-color 0.1s ease-in;
+}
+section#myProjects div#androidContainer div.Redirects a.links:hover{
+
+    background-color: rgba(46, 241, 183, 0.219);
+
+}
+section#myProjects > div#secondContainer div#androidContainer div.imageProjects img{
+    display: block;
+    position: relative;
+    transform: translate(-20%,-45%) rotate(-5deg);
+    margin-left: auto;
+}
+section#myProjects div#androidContainer p.expand a span{
+
+    color: rgb(39, 104, 68);
+}
+
+/**/
+
+section#myProjects > div#secondContainer div#cordelContainer{
+
+    background-image: linear-gradient(to bottom, white, rgba(66, 66, 66, 0.842),rgb(88, 88, 88),#fff);
+}
+section#myProjects div#secondContainer div#cordelContainer div.Redirects{
+
+    position: relative;
+    left: 40%;
+    width: fit-content;
+    transform: translate(5vw,30vh);
+}
+section#myProjects div#cordelContainer div.Redirects a.links{
+    
+    color: #000;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.582);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    transition: background-color 0.1s ease-in;
+}
+section#myProjects div#cordelContainer div.Redirects a.links:hover{
+
+    background-color: rgba(83, 83, 83, 0.452);
+
+}
+section#myProjects > div#secondContainer div#cordelContainer div.imageProjects img{
+    display: block;
+    position: relative;
+    transform: translate(25%,-20%) rotate(5deg);
+  
+}
+section#myProjects div#cordelContainer p .hyperlinkText {
+
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-decoration: none;
+}
+section#myProjects div#cordelContainer p .hyperlinkText:hover{
+
+   text-decoration: underline;
+}
+
+/**/
+
+section#myProjects > div#secondContainer div#socialContainer{
+
+    background-image: linear-gradient(to bottom, white, rgb(202, 171, 69),rgb(189, 163, 78),#fff);
+}
+section#myProjects div#secondContainer div#socialContainer div.Redirects{
+
+    position: relative;
+    left: 22%;
+    width: fit-content;
+    transform: translate(-35%,30vh);
+}
+section#myProjects div#socialContainer div.Redirects a.links{
+    
+    color: #000;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.582);
+    border: 1px solid rgb(133, 114, 33);
+    border-radius: 10px;
+    transition: background-color 0.1s ease-in;
+}
+section#myProjects div#socialContainer div.Redirects a.links:hover{
+
+    background-color: rgba(189, 179, 38, 0.411);
+
+}
+section#myProjects > div#secondContainer div#socialContainer div.imageProjects img{
+    display: block;
+    position: relative;
+    transform: translate(-20%,-20%) rotate(-5deg);
+    margin-left: auto;
+}
+section#myProjects div#socialContainer p.expand a span{
+
+    color: rgb(112, 97, 28);
+}
+
+/**/
+
+section#myProjects > div#secondContainer div#loginContainer{
+
+    background-image: linear-gradient(to bottom, white, rgba(37, 82, 107, 0.623),rgba(35, 73, 109, 0.692),#fff);
+}
+section#myProjects div#secondContainer div#loginContainer div.Redirects{
+
+    position: relative;
+    left: 40%;
+    width: fit-content;
+    transform: translate(5vw,30vh);
+}
+section#myProjects div#loginContainer div.Redirects a.links{
+    
+    color: #000;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.582);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    transition: background-color 0.1s ease-in;
+}
+section#myProjects div#loginContainer div.Redirects a.links:hover{
+
+    background-color: rgba(52, 88, 109, 0.452);
+
+}
+section#myProjects > div#secondContainer div#loginContainer div.imageProjects img{
+    display: block;
+    position: relative;
+    transform: translate(22%,-30%) rotate(5deg);
+  
+}
+
+/**/
+
+section#myProjects > div#secondContainer div#calculatorContainer{
+
+    background-image: linear-gradient(to bottom, white, rgba(116, 38, 38, 0.877),rgba(90, 37, 37, 0.877),#fff);
+}
+section#myProjects div#secondContainer div#calculatorContainer div.Redirects{
+
+    position: relative;
+    left: 22%;
+    width: fit-content;
+    transform: translate(-35%,30vh);
+}
+section#myProjects div#calculatorContainer div.Redirects a.links{
+    
+    color: #000;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.582);
+    border: 1px solid rgb(133, 33, 33);
+    border-radius: 10px;
+    transition: background-color 0.1s ease-in;
+}
+section#myProjects div#calculatorContainer div.Redirects a.links:hover{
+
+    background-color: rgba(192, 54, 54, 0.589);
+
+}
+section#myProjects > div#secondContainer div#calculatorContainer div.imageProjects img{
+    display: block;
+    position: relative;
+    transform: translate(-20%,-25%) rotate(-5deg);
+    margin-left: auto;
+}
+section#myProjects div#calculatorContainer p.expand a span{
+
+    color: rgb(87, 22, 22);
+}
+
+section#myContacts{
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: white;
+    
+}
+section#myContacts div.container{
+
+    margin: 0px;
+    width: 100%;
+    
+}
+
+section#myContacts div.container h2{
+    
+    font-size: 28px;
+    text-align: center;
+
+}
+section#myContacts div.container div{
+
+    margin-top: 40px;
+}
+section#myContacts div.container div p{
+
+    font-size: 20px;
+    
+    text-align: center;
+}
+footer div.container div#backInicial span{
+
+    font-size: 3.5em;
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgb(121, 121, 121);
+    
+}
+footer div.container{
+    margin: 0px;
+    
+}
+footer div.container div#backInicial {
+    width: fit-content;
+    margin: auto;
+}
+footer div.container div#redirectSocial{
+
+    margin: auto;
+    margin-top: 60px;
+    width: fit-content;
+}
+footer div.container div#redirectSocial a{
+    display: inline-block;
+    padding: 15px;
+}
+footer div.container div#redirectSocial a img{
+
+    width: 45px;
+}

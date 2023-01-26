@@ -429,6 +429,11 @@ section#myContacts div.container div p{
     
     text-align: center;
 }
+section#myContacts div.container div p span{
+
+
+    font-size: 20px;
+}
 
 footer{
     width: 100%;

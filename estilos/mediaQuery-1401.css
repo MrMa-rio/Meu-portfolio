@@ -5,12 +5,9 @@
     margin: 0px;
     padding: 0px;
     font-family: Montserrat, sans-serif;
+    
 }
-body{
 
-    
-    
-}
 section#Me{
 
     height: 100vh;
@@ -63,13 +60,9 @@ section#aboutMe{
     background-image: linear-gradient(to top, rgba(255, 255, 255, 0.507) 1%,rgba(255, 255, 0, 0.541)20%,rgba(255, 166, 0, 0.637), rgba(255, 0, 0, 0.603));
 }
 
-section#aboutMe > div.container > div > div{
-    
-    
-}
 section#aboutMe > div.container > div > div > h2{
     position: relative;
-    font-size: 2.5em;
+    font-size: 2.8em;
     width: fit-content;
     padding: 15px;
     top: 100px;
@@ -81,12 +74,12 @@ section#aboutMe > div.container div#meImage{
     display: block;
     width: fit-content;
     margin-left: auto;
-    margin-right: 14vw;
+    margin-right: 11vw;
 
 }
 section#aboutMe > div.container div#meImage img{
 
-    width: 400px;
+    width: 480px;
     border-radius: 30px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.753);
 }
@@ -99,10 +92,9 @@ section#aboutMe > div.container div#words{
 
     position: relative;
     top: 50%;
-    transform: translate(70%,-50%);
+    transform: translate(80%,-30%);
     width: fit-content;
     background-color: #1816192a;
-    
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.322);
     padding: 20px;
     border-radius: 25px;
@@ -111,10 +103,10 @@ section#aboutMe > div.container div#words{
 }
 section#aboutMe > div.container div p#myWords{
 
-    width: 510px;
+    width: 520px;
     color: rgb(3, 3, 3);
     text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.819);
-    line-height: 40px;
+    line-height: 44px;
     font-size: 1.4em;
     text-align: justify;
 
@@ -141,8 +133,8 @@ section#aboutMe > div.container > div div#resumeContainer{
     margin-right: 22vw;
     position: relative;
     top: 50%;
-    left: 2%;
-    transform: translateY(-65vh);
+    left: 5%;
+    transform: translateY(-68vh);
     padding: 10px;
 }
 section#aboutMe > div.container p#myResume a{
@@ -255,9 +247,15 @@ section#myProjects > div#secondContainer div#androidContainer div.imageProjects 
     transform: translate(-50%,-45%) rotate(-5deg);
     margin-left: auto;
 }
+section#myProjects > div#secondContainer  div#androidContainer div.imageProjects > p.expand{
+
+    transform: translateY(-45vh);
+
+}
 section#myProjects div#androidContainer p.expand a span{
 
     color: rgb(39, 104, 68);
+
 }
 
 /**/
@@ -369,7 +367,7 @@ section#myProjects div#loginContainer div.Redirects a.links:hover{
 section#myProjects > div#secondContainer div#loginContainer div.imageProjects img{
     display: block;
     position: relative;
-    transform: translate(70%,-20%) rotate(5deg);
+    transform: translate(70%,-25%) rotate(5deg);
   
 }
 

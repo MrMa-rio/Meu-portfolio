@@ -5,4 +5,50 @@
     margin: 0px;
     padding: 0px;
     font-family: Montserrat, sans-serif;
+    
+}
+
+
+section#aboutMe > div.container div#meImage{
+
+    margin-right: 12vw;
+
+}
+section#aboutMe > div.container div#meImage p img{
+
+    width: 350px;
+    
+}
+
+section#aboutMe > div.container div#words{
+
+    transform: translate(20%,-29%);
+    padding: 25px;
+
+}
+section#aboutMe > div.container div p#myWords{
+
+    width: 380px;
+    
+}
+
+section#aboutMe > div.container > div div#resumeContainer{
+
+    transform: translate(2%,-78vh);
+    
+}
+
+section#myProjects h2{
+
+    font-size: 2.5em;
+    padding: 20px;
+
+}
+
+section#myProjects div#secondContainer div.Redirects p{
+
+   font-size: 1.4em;
+   width: 450px;
+   line-height: 35px;
+
 }
