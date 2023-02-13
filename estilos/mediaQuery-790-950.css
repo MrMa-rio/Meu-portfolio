@@ -7,6 +7,11 @@
     font-family: Montserrat, sans-serif;
 }
 
+::-webkit-scrollbar{
+
+    width: 1px;
+}
+
 section#Me{
 
     height: 100vh;
@@ -135,12 +140,13 @@ section#aboutMe  p#myResume{
 section#aboutMe > div.container > div div#resumeContainer{
 
     width: fit-content;
+    margin-top: 15vh;
     margin-left: auto;
     margin-right: 22vw;
     position: relative;
     top: 50%;
     left: 2%;
-    transform: translate(38%,-70vh);
+    transform: translate(38%,-60vh);
     padding: 10px;
 }
 section#aboutMe > div.container p#myResume a{
@@ -196,9 +202,11 @@ section#myProjects div#secondContainer div.Redirects p{
    
    font-size: 1.2em;
    width: 400px;
+   max-height: 450px;
    text-align: justify;
    line-height: 35px;
    margin-bottom: 30px;
+   overflow: scroll;
 
 }
 section#myProjects div#secondContainer div.Redirects a.links{
@@ -220,7 +228,7 @@ section#myProjects > div#secondContainer div.imageProjects > p.expand{
     width: fit-content;
     margin: auto;
     position: relative;
-    transform: translateY(-15vh);
+    transform: translateY(-14vh);
     cursor: pointer;
 }
 section#myProjects > div#secondContainer div.imageProjects > p.expand span{
@@ -421,6 +429,44 @@ section#myProjects div#calculatorContainer p.expand a span{
 
     color: rgb(87, 22, 22);
 }
+/**/
+
+section#myProjects > div#secondContainer div#snakeContainer{
+
+    background-image: linear-gradient(to bottom,#fffdfd 15%,rgba(0, 255, 55, 0.699), #ffffff );
+}
+section#myProjects div#secondContainer div#snakeContainer div.Redirects{
+
+    position: relative;
+    left: 50%;
+    width: fit-content;
+    transform: translate(5vw,30vh);
+}
+section#myProjects div#snakeContainer div.Redirects a.links{
+    
+    color: #000;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.582);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    transition: background-color 0.1s ease-in;
+}
+section#myProjects div#snakeContainer div.Redirects a.links:hover{
+
+    background-color: rgba(70, 108, 190, 0.452);
+
+}
+section#myProjects > div#secondContainer div#snakeContainer div.imageProjects img{
+    display: block;
+    position: relative;
+    left: 10%;
+    transform: translate(20%,-45%) rotate(5deg);
+    
+}
+section#myProjects div#secondContainer div#snakeContainer div.imageProjects span{
+
+    transform: translateY(30vh);
+}
+/**/
 
 section#myContacts{
 

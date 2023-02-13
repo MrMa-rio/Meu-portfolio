@@ -1,6 +1,6 @@
 function scrollPage(numero){
 
-    const selectSection = ["aboutMe","myProjects","Me","cordelContainer","socialContainer","loginContainer","calculatorContainer","myContacts"]
+    const selectSection = ["aboutMe","myProjects","Me","cordelContainer","socialContainer","loginContainer","calculatorContainer","snakeContainer","myContacts"]
     const positionArray = selectSection[numero]
     document.getElementById(`${positionArray}`).scrollIntoView({behavior:"smooth"});
     
